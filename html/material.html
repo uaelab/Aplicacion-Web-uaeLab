@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>UAE Lab | Nuevo Material</title>
+  <link rel="shortcut icon" href="../img/uae.jpg">
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <!-- CUSTOM CSS -->
+  <link rel="stylesheet" href="../styles/stylesMaterial.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <nav class="nav-main">
+      <div class="menu-btn">
+        <i class="fas fa-bars fa-2x"></i>
+      </div>
+
+      <label id="topic-top">
+        Agregar Nuevo Material
+      </label>
+
+      <i id="avatar" class="fas fa-user-circle"></i>
+
+      <!-- Navigation -->
+
+      <!-- Left Nav -->
+      <ul class="nav-menu">
+        <li>
+          <img src="../img/uae.jpg" alt="uae Logo" class="nav-brand">
+        </li>
+        <li>
+          <a href="./inicio.html">Inicio</a>
+        </li>
+        <li>
+          <a href="./biblioteca.html">Biblioteca</a>
+        </li>
+        <!--
+          <li>
+          <a href="">Actividades pendientes</a>
+          </li>
+        -->
+        <li>
+          <a href="./laboratorios.html">Laboratorios</a>
+        </li>
+        <li>
+          <a href="./material.html">Nuevo Material</a>
+        </li>
+        <li>
+          <a href="./contacto.html">Contactanos</a>
+        </li>
+        <!--
+          <li>
+          <a href="#">Mas</a>
+          </li>
+      
+        -->
+      </ul>
+    </nav>
+  </header>
+
+  <div>.</div>
+
+  <div class="contenedor">
+
+    <img id="imguae" src="../img/uae.jpg">
+
+    <label for="tab-1" class="tab1">Nuevo material a agregar</label>
+    <div id="form" class="login-form">
+
+      <div class="form1">
+        <label for="categoria" class="la">Categoria:</label>
+        <select id="categoria" class="input">
+          <option>-Seleccionar-</option>
+          <option value="1">Libro</option>
+          <option value="2">Trabajo de Graduación</option>
+          <option value="3">Guia/Laboratorio</option>
+        </select>
+      
+        <label for="nombre" class="la">Nombre:</label>
+        <input id="nombre" type="text" class="input">
+      
+        <label for="año" class="last">Año:</label>
+        <input id="año" type="number" class="input">
+      
+        
+        <label for="file" class="last">Archivo:</label>
+        <input id="filee" type="file" class="input" value="Examinar...">
+      
+      </div>
+
+      <input id="guardar" type="submit" class="button" value="Guardar">
+    </div>
+  </div>
+
+
+
+  <!-- Scroll Reveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="../js/mainMaterial.js"></script>
+</body>
+
+</html>
